@@ -13,28 +13,39 @@ object DataService {
     )
 
     val hats = listOf(
-            Product("Devslopes Graphic Beanie", "$18", "hat01"),
-            Product("Devslopes Hat Black", "$18", "hat02"),
-            Product("Devslopes Hat White", "$18", "hat03"),
-            Product("Devslopes Hat Snapback", "$18", "hat04")
+            Product("Devslopes Graphic Beanie", "$18", "hat1"),
+            Product("Devslopes Hat Black", "$18", "hat2"),
+            Product("Devslopes Hat White", "$18", "hat3"),
+            Product("Devslopes Hat Snapback", "$18", "hat4")
 
     )
     // all the names for eg- shirtimage, hoodieimage, hat01, hat02 are coming from the names of the drawables.
     val hoodies = listOf(
-            Product("Devslopes hoodie Gray", "$28", "hoodie01"),
-            Product("Devslopes hoodies Red", "$28", "hoodie02"),
-            Product("Devslopes Gray hoodie", "$28", "hoodie03"),
-            Product("Devslopes Black hoodie", "$28", "hoodie04")
+            Product("Devslopes hoodie Gray", "$28", "hoodie1"),
+            Product("Devslopes hoodies Red", "$28", "hoodie2"),
+            Product("Devslopes Gray hoodie", "$28", "hoodie3"),
+            Product("Devslopes Black hoodie", "$28", "hoodie4")
     )
 
 
     val shirts = listOf(
-            Product("Devslopes shirt Gray", "$18", "shirt01"),
-            Product("Devslopes Badge light gray", "$20", "shirt02"),
-            Product("Devslopes Logo shirt red", "$22", "shirt03"),
-            Product("Devslopes Hustle", "$22", "shirt04"),
-            Product("Kickflip studios", "$18", "shirt05")
+            Product("Devslopes shirt Gray", "$18", "shirt1"),
+            Product("Devslopes Badge light gray", "$20", "shirt2"),
+            Product("Devslopes Logo shirt red", "$22", "shirt3"),
+            Product("Devslopes Hustle", "$22", "shirt4"),
+            Product("Kickflip studios", "$18", "shirt5")
     )
+
+    val digitalGood = listOf<Product>()
+
+    fun getProducts(category: String) : List<Product>{
+        return when(category) {
+            "SHIRTS" -> shirts
+            "HATS" -> hats
+            "HOODIES" -> hoodies
+            else -> digitalGood
+        }
+    }
 
 
 }
