@@ -16,6 +16,14 @@ object DataService {
             Product("Devslopes Graphic Beanie", "$18", "hat1"),
             Product("Devslopes Hat Black", "$18", "hat2"),
             Product("Devslopes Hat White", "$18", "hat3"),
+            Product("Devslopes Hat Snapback", "$18", "hat4"),
+            Product("Devslopes Graphic Beanie", "$18", "hat1"),
+            Product("Devslopes Hat Black", "$18", "hat2"),
+            Product("Devslopes Hat White", "$18", "hat3"),
+            Product("Devslopes Hat Snapback", "$18", "hat4"),
+            Product("Devslopes Graphic Beanie", "$18", "hat1"),
+            Product("Devslopes Hat Black", "$18", "hat2"),
+            Product("Devslopes Hat White", "$18", "hat3"),
             Product("Devslopes Hat Snapback", "$18", "hat4")
 
     )
@@ -24,7 +32,15 @@ object DataService {
             Product("Devslopes hoodie Gray", "$28", "hoodie1"),
             Product("Devslopes hoodies Red", "$28", "hoodie2"),
             Product("Devslopes Gray hoodie", "$28", "hoodie3"),
-            Product("Devslopes Black hoodie", "$28", "hoodie4")
+            Product("Devslopes Black hoodie", "$28", "hoodie4"),
+        Product("Devslopes hoodie Gray", "$28", "hoodie1"),
+        Product("Devslopes hoodies Red", "$28", "hoodie2"),
+        Product("Devslopes Gray hoodie", "$28", "hoodie3"),
+        Product("Devslopes Black hoodie", "$28", "hoodie4"),
+        Product("Devslopes hoodie Gray", "$28", "hoodie1"),
+        Product("Devslopes hoodies Red", "$28", "hoodie2"),
+        Product("Devslopes Gray hoodie", "$28", "hoodie3"),
+        Product("Devslopes Black hoodie", "$28", "hoodie4")
     )
 
 
@@ -33,7 +49,16 @@ object DataService {
             Product("Devslopes Badge light gray", "$20", "shirt2"),
             Product("Devslopes Logo shirt red", "$22", "shirt3"),
             Product("Devslopes Hustle", "$22", "shirt4"),
-            Product("Kickflip studios", "$18", "shirt5")
+            Product("Kickflip studios", "$18", "shirt5"),
+        Product("Devslopes shirt Gray", "$18", "shirt1"),
+        Product("Devslopes Badge light gray", "$20", "shirt2"),
+        Product("Devslopes Logo shirt red", "$22", "shirt3"),
+        Product("Devslopes Hustle", "$22", "shirt4"),
+        Product("Kickflip studios", "$18", "shirt5"),Product("Devslopes shirt Gray", "$18", "shirt1"),
+        Product("Devslopes Badge light gray", "$20", "shirt2"),
+        Product("Devslopes Logo shirt red", "$22", "shirt3"),
+        Product("Devslopes Hustle", "$22", "shirt4"),
+        Product("Kickflip studios", "$18", "shirt5")
     )
 
     val digitalGood = listOf<Product>()
